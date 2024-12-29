@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a024e;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  font-size: 1.5rem;
+  font-weight: bold; 
+}
+
+.logo img {
+  width: 50px; 
+  height: 50px; 
+  object-fit: cover; 
+  border-radius: 50%; 
+  border: 2px solid #fff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out; 
+}
+
+.logo img:hover {
+  transform: scale(1.2); 
+}
+
+.brand-name {
+  font-size: 2.0rem; 
+  font-weight: 600; 
+  color: #ffffff; 
+  margin-left: 12px; 
+  font-family: 'Poppins', sans-serif; 
+  
+  text-transform: capitalize;
+  transition: transform 0.3s ease, color 0.3s ease-in-out; 
+}
+
+.brand-name:hover {
+  color: #f1e6ff; 
+  transform: scale(1.05); 
+}
+
+.nav-links a {
+  text-decoration: none; 
+  color: white; 
+  padding: 5px 5px; 
+  font-size: 1rem; 
+  border-radius: 5px; 
+}
+.nav-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.nav-links li {
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.nav-links li:hover {
+  background-color: #3a003e;
+  border-radius: 5px;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+button {
+  position: relative;
+  right: 10px;
+  left: 20px;
+}
